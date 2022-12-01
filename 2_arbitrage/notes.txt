@@ -1,0 +1,28 @@
+
+commands:
+
+// to see with all is installed
+truffle version
+
+// to begin work with contracts
+truffle init .
+
+________________________________________________
+Create an eth address to test
+https://vanity-eth.tk/
+
+Genere a private key then put in .env -> PRIVATE_KEY
+
+________
+Create the flashloan arbitrage contracts
+1) Execute arbitrage
+2) Withdraw profits
+
+to borrow on dydx:
+1) Withdraw action
+2) call action: the arbitrage logic
+3) deposit action: to pay back the amount borrowed
+
+
+//end before deploy the contract v27
+truffle migrate --network mainnet --reset
