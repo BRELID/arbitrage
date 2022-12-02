@@ -24,7 +24,7 @@ const AMOUNT_DAI_WEI = web3.utils.toWei(
   (AMOUNT_ETH * RECENT_ETH_PRICE).toString()
 );
 
-//listen new block changement
+//listen new block arrival
 const init = async () => {
   // Connect to uniswap
   const [dai, weth] = await Promise.all(

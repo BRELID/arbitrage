@@ -55,7 +55,7 @@ const init = async () => {
   // Refresh constently the eth price
   setInterval(updateEthPrice, 15000);
 
-  //listen new block changement
+  //listen new block arrival
   web3.eth
     .subscribe("newBlockHeaders")
     .on("data", async (block) => {

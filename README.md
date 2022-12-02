@@ -9,6 +9,10 @@ To install all needed packages, just launch:
 ```
 npm install
 ```
+then, to launch the app:
+```
+node .\run-arbitrage.js
+```
 
 ## 2_arbitrage
 ### Complete arbitrage script to arbitrage dai and eth between uniswap and kyber dex.
@@ -22,3 +26,8 @@ To install all needed packages, just launch:
 ```
 npm install
 ```
+then, to launch the app:
+```
+node .\run-arbitrage.js
+```
+
