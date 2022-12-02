@@ -5,9 +5,6 @@ const abis = require("./abis");
 const { mainnet: addresses } = require("./addresses");
 const Flashloan = require("./build/contracts/Flashloan.json");
 
-console.log(Flashloan.networks[networkId].address);
-return;
-
 // create the connection to the blockchain
 const web3 = new Web3(
   new Web3.providers.WebsocketProvider(process.env.INFURA_URL)
